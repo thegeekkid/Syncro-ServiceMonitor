@@ -21,6 +21,12 @@ $alertIfStopped = "true"
 #>
 $alertCategory = "Other"
 
+
+<#
+	Nothing below here requires editing.
+#>
+
+
 $service = Get-Service -Name $serviceName
 $stat = $service.Status
 
