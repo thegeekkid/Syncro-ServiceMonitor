@@ -4,7 +4,7 @@ Import-Module $env:SyncroModule
 .SYNOPSIS
    Monitors the status of the specified service
 .DESCRIPTION
-   Checks the status of the specified service, and optionally starts and/or creates a Syncro alert if it was not already running.
+   Checks the status of the specified service, and optionally starts the service and/or creates a Syncro alert if it was not already running.
 .EXAMPLE
    <An example of using the script>
 #>
